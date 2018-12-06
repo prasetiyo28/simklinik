@@ -153,23 +153,23 @@
                                 Menu
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link " href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-1" aria-controls="submenu-1"><i class="fa fa-fw fa-user-circle"></i>Dashboard <span class="badge badge-success">6</span></a>
-                            </li>
-                            <li class="nav-item  ">
-                                <a class="nav-link active" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-1" aria-controls="submenu-1"><i class="fa fa-fw fa-briefcase-medical"></i>Rawat Jalan <span class="badge badge-success">6</span></a>
+                                <a class="nav-link " href="index.html" ><i class="fa fa-fw fa-user-circle"></i>Dashboard <span class="badge badge-success">6</span></a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-1" aria-controls="submenu-1"><i class="fa fa-fw fa-bed"></i>Pasien <span class="badge badge-success">6</span></a>
+                                <a class="nav-link active" href="rawatjalan.html"><i class="fa fa-fw fa-briefcase-medical"></i>Rawat Jalan <span class="badge badge-success">6</span></a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-1" aria-controls="submenu-1"><i class="fa fa-fw fa-pills"></i>Obat<span class="badge badge-success">6</span></a>
+                                <a class="nav-link" href="pasien.html"><i class="fa fa-fw fa-bed"></i>Pasien <span class="badge badge-success">6</span></a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-1" aria-controls="submenu-1"><i class="fa fa-fw fa-info-circle"></i>Layanan <span class="badge badge-success">6</span></a>
+                                <a class="nav-link" href="404-page.html" ><i class="fa fa-fw fa-pills"></i>Obat<span class="badge badge-success">6</span></a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="404-page.html"><i class="fa fa-fw fa-info-circle"></i>Layanan <span class="badge badge-success">6</span></a>
                             </li>
 
                             <li class="nav-item ">
-                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-1" aria-controls="submenu-1"><i class="fa fa-fw fa-users"></i>Karyawan <span class="badge badge-success">6</span></a>
+                                <a class="nav-link" href="404-page.html"><i class="fa fa-fw fa-users"></i>Karyawan <span class="badge badge-success">6</span></a>
                             </li>
                         </ul>
                     </div>
@@ -207,6 +207,50 @@
                     <!-- ============================================================== -->
                     <!-- end pageheader  -->
                     <!-- ============================================================== -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Rekam Medis</h5>
+                                    <a href="#" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </a>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="card">
+                                        <h5 class="card-header">P0001 - Bayu Adi Prasetiyo</h5>
+                                        <div class="card-body">
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th scope="col">#</th>
+                                                        <th scope="col">Tanggal</th>
+                                                        <th scope="col">Amnesa/LAB</th>
+                                                        <th scope="col">Diagnose</th>
+                                                        <th scope="col">Terapi</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">1</th>
+                                                        <td>21 Nov 2018</td>
+                                                        <td>-</td>
+                                                        <td>ISPA</td>
+                                                        <td>-</td>
+                                                    </tr>
+
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="#" class="btn btn-secondary" data-dismiss="modal">Close</a>
+                                    <a href="#" class="btn btn-primary">Save changes</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="row">
                         <!-- ============================================================== -->
@@ -234,7 +278,7 @@
                                                     <td>P0001</td>
                                                     <td>Bayu Adi Prasetiyo</td>
                                                     <td>21</td>
-                                                    <td><a href="#" class="btn btn-info">Detail Rekam Medis</a></td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#exampleModal" class="btn btn-info">Rekam Medik</a></td>
                                                     <td>
                                                         <a href="#" class="btn btn-danger">Hapus</a>
                                                         <a href="#" class="btn btn-warning">Edit</a>
@@ -246,7 +290,7 @@
                                                     <td>P0002</td>
                                                     <td>Dio Surandito</td>
                                                     <td>21</td>
-                                                    <td><a href="#" class="btn btn-info">Detail Rekam Medis</a></td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#exampleModal" class="btn btn-info">Rekam Medik</a></td>
                                                     <td>
                                                         <a href="#" class="btn btn-danger">Hapus</a>
                                                         <a href="#" class="btn btn-warning">Edit</a>
@@ -259,7 +303,7 @@
                                                     <td>P0003</td>
                                                     <td>Yasinta Ersyaf S</td>
                                                     <td>22</td>
-                                                    <td><a href="#" class="btn btn-info">Detail Rekam Medis</a></td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#exampleModal" class="btn btn-info">Rekam Medik</a></td>
                                                     <td>
                                                         <a href="#" class="btn btn-danger">Hapus</a>
                                                         <a href="#" class="btn btn-warning">Edit</a>
@@ -272,7 +316,7 @@
                                                     <td>P0004</td>
                                                     <td>Novianto Arif Wibowo</td>
                                                     <td>22</td>
-                                                    <td><a href="#" class="btn btn-info">Detail Rekam Medis</a></td>
+                                                    <td><a href="#" data-toggle="modal" data-target="#exampleModal" class="btn btn-info">Rekam Medik</a></td>
                                                     <td>
                                                         <a href="#" class="btn btn-danger">Hapus</a>
                                                         <a href="#" class="btn btn-warning">Edit</a>
@@ -304,9 +348,9 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                   Copyright © 2018 Concept. All rights reserved. Dashboard by <a href="https://colorlib.com/wp/">Colorlib</a>.
-               </div>
-               <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                 Copyright © 2018 Concept. All rights reserved. Dashboard by <a href="https://colorlib.com/wp/">Colorlib</a>.
+             </div>
+             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                 <div class="text-md-right footer-links d-none d-sm-block">
                     <a href="javascript: void(0);">About</a>
                     <a href="javascript: void(0);">Support</a>
